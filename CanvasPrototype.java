@@ -1,3 +1,7 @@
+/*
+* Made by ShZil
+*/
+
 import java.awt.Color;
 import java.awt.Canvas;
 import java.util.Timer;
@@ -17,8 +21,8 @@ public abstract class CanvasPrototype extends Canvas {
   public final Color backgroundColor = Color.black; // The default background for your canvas.
   public final int width = 500; // Width in pixels.
   public final int height = 500; // Height in pixels.
-  public final long intervalLoadingTime = 1l; // The time waiting for the interval ticking to start, in MiliSeconds.
-  public final long intervalLength = 1000l; // The time between each interval tick, in MiliSeconds.
+  public final long intervalLoadingTime = 1l; // The time waiting for the interval ticking to start, in MilliSeconds.
+  public final long intervalLength = 1000l; // The time between each interval tick, in MilliSeconds.
 
   public final void start() {
     frame = new JFrame(title);
